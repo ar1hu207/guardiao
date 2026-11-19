@@ -20,6 +20,7 @@ Parte de **Inteligência Artificial & Machine Learning** do Guardião.
 | [`zonas_risco.csv`](zonas_risco.csv) | **Saída para a API**: score e nível por zona e faixa horária |
 | `figuras/` | Gráficos (PNG), tabela do grid search e resumo das métricas (JSON) |
 | [`ROTEIRO_VIDEO.md`](ROTEIRO_VIDEO.md) | Roteiro e falas do vídeo de até 5 minutos |
+| [`video/guardiao_ia_ml.mp4`](video/guardiao_ia_ml.mp4) | Vídeo de 4 min 45 s (narração gerada a partir do roteiro, com os gráficos do notebook) |
 | `requirements.txt` | Bibliotecas com versão fixa |
 
 ## Como rodar
