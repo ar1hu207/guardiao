@@ -35,7 +35,7 @@ guardiao/
 Com 124.935 sinistros reais com moto (Infosiga SP, 2019 a set/2026), um XGBoost estima a chance de um acidente
 ser grave ou fatal por local e horário. No teste: ROC-AUC 0,641 e recall 0,705 da classe grave. O resultado vira
 [`ml/zonas_risco.csv`](ml/zonas_risco.csv), consumido por `GET /api/zonas-risco`.
-Detalhes e como rodar: [`ml/README.md`](ml/README.md) · Relatório: [`ml/RELATORIO_ML.md`](ml/RELATORIO_ML.md).
+Detalhes e como rodar: [`ml/README.md`](ml/README.md) · Relatório: [`ml/RELATORIO_ML.md`](ml/RELATORIO_ML.md) · Vídeo: https://youtu.be/beAWrduNJ4c
 
 ## Serviço de Risco (SOA)
 

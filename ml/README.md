@@ -1,6 +1,8 @@
 # ml/ — Score de risco por região e horário
 
 > **Integrantes:** Arthur Abonizio (RM555506) · Gabriel Padula (RM554907) · Rodrigo Nakata (RM556417)
+>
+> **Vídeo (YouTube, não listado):** https://youtu.be/beAWrduNJ4c
 
 Parte de **Inteligência Artificial & Machine Learning** do Guardião.
 
