@@ -1,0 +1,12 @@
+[project]
+name = "guardiao-servico-risco"
+version = "1.0.0"
+description = "Serviço de zonas de risco do Guardião (GS FIAP 2026.2)"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
+filterwarnings = [
+    "ignore:Using `httpx` with `starlette.testclient`",
+]

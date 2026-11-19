@@ -1,0 +1,154 @@
+{
+  "n_linhas_modelo": 124935,
+  "periodo": [
+    "01/01/2019",
+    "30/09/2026"
+  ],
+  "taxa_grave": 0.11147396646256053,
+  "spw": 7.970382337102854,
+  "melhores_params": {
+    "xgb__learning_rate": 0.1,
+    "xgb__max_depth": 3,
+    "xgb__n_estimators": 100
+  },
+  "auc_cv": 0.6451167510568085,
+  "corte": 0.4364456236362457,
+  "treino": {
+    "ROC-AUC": 0.6579794397168737,
+    "Average precision (PR-AUC)": 0.2200451409926632,
+    "Recall (grave)": 0.7178244480344642,
+    "Precisão (grave)": 0.14780728502522592,
+    "F1 (grave)": 0.2451381545676061,
+    "Acurácia balanceada": 0.5992844961610062,
+    "Acurácia (só referência)": 0.5071737303397766
+  },
+  "teste": {
+    "ROC-AUC": 0.6407712229978473,
+    "Average precision (PR-AUC)": 0.19993108841577448,
+    "Recall (grave)": 0.7052064631956912,
+    "Precisão (grave)": 0.1441891197415755,
+    "F1 (grave)": 0.23942460075582103,
+    "Acurácia balanceada": 0.5900818371288788,
+    "Acurácia (só referência)": 0.5006203225677353
+  },
+  "treino_corte_05": {
+    "ROC-AUC": 0.6579794397168737,
+    "Average precision (PR-AUC)": 0.2200451409926632,
+    "Recall (grave)": 0.5454137497756237,
+    "Precisão (grave)": 0.18104629684800094,
+    "F1 (grave)": 0.2718529122304733,
+    "Acurácia balanceada": 0.6179369269113237,
+    "Acurácia (só referência)": 0.6742906311281867
+  },
+  "teste_corte_05": {
+    "ROC-AUC": 0.6407712229978473,
+    "Average precision (PR-AUC)": 0.19993108841577448,
+    "Recall (grave)": 0.526032315978456,
+    "Precisão (grave)": 0.17300425129900804,
+    "F1 (grave)": 0.2603750111081489,
+    "Acurácia balanceada": 0.6053051409637349,
+    "Acurácia (só referência)": 0.6669067915315964
+  },
+  "funil": [
+    [
+      "Sinistros no estado de SP (2014–2026)",
+      1450961
+    ],
+    [
+      "Município de São Paulo",
+      343241
+    ],
+    [
+      "Com pelo menos uma moto",
+      135811
+    ],
+    [
+      "A partir de 2019",
+      134338
+    ],
+    [
+      "Sem id duplicado",
+      134338
+    ],
+    [
+      "Com hora válida",
+      134243
+    ],
+    [
+      "Com coordenada dentro da cidade",
+      129069
+    ],
+    [
+      "Com gravidade informada (fatal, grave ou leve)",
+      124935
+    ]
+  ],
+  "frases": {
+    "madrugada_fds_vs_tarde_util": 2.9467774904492248,
+    "estrada_rodovia_vs_rua_avenida": 1.2698385297048995,
+    "periferia_vs_centro": 1.8558931140972859,
+    "zona_top": {
+      "zona_id": 78,
+      "nome": "SP-270 e entorno",
+      "latitude": -23.59,
+      "longitude": -46.79,
+      "faixa_horaria": "MADRUGADA",
+      "hora_inicio": 0,
+      "hora_fim": 5,
+      "score": 1.0,
+      "nivel": "ALTO",
+      "risco_relativo": 1.659999966621399,
+      "prob_modelo": 0.7843999862670898,
+      "taxa_grave_observada": 0.3421,
+      "n_sinistros": 38
+    }
+  },
+  "n_zonas": 222,
+  "n_linhas_zonas": 794,
+  "importancia": [
+    [
+      "hora",
+      0.03286458392887255
+    ],
+    [
+      "dist_centro_km",
+      0.025714876527512698
+    ],
+    [
+      "administracao",
+      0.013341296581498985
+    ],
+    [
+      "periodo",
+      0.009493363163572854
+    ],
+    [
+      "dia_semana",
+      0.008763529375576385
+    ],
+    [
+      "latitude",
+      0.008023839497764595
+    ],
+    [
+      "longitude",
+      0.005575760718618472
+    ],
+    [
+      "fim_de_semana",
+      0.0011402304166983957
+    ],
+    [
+      "tipo_via",
+      0.0010075275080728696
+    ],
+    [
+      "tipo_logradouro",
+      0.0009525298827140815
+    ],
+    [
+      "mes",
+      0.00024873743006321726
+    ]
+  ]
+}

@@ -1,0 +1,6 @@
+zona_id,nome,latitude,longitude,faixa_horaria,hora_inicio,hora_fim,score,nivel,risco_relativo,prob_modelo,taxa_grave_observada,n_sinistros
+1,Av. Paulista e entorno,-23.561,-46.656,MADRUGADA,0,5,0.85,ALTO,1.5,0.7,0.25,40
+1,Av. Paulista e entorno,-23.561,-46.656,TARDE,12,17,0.20,BAIXO,0.8,0.4,0.07,300
+2,R. da Consolacao e entorno,-23.555,-46.662,MADRUGADA,0,5,0.95,ALTO,1.7,0.8,0.31,35
+2,R. da Consolacao e entorno,-23.555,-46.662,TARDE,12,17,0.50,MEDIO,1.0,0.5,0.10,250
+3,SP-270 e entorno,-23.590,-46.790,MADRUGADA,0,5,1.00,ALTO,1.66,0.78,0.34,38

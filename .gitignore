@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ML: ZIP oficial do Infosiga (141 MB, passa do limite do GitHub). O notebook baixa sozinho.
+ml/dados/raw/
+
+# Serviço de risco: banco local e configuração com segredos
+servico-risco/*.db
+servico-risco/.env
+
+# C#: saída de build e banco local
+bin/
+obj/
+api/**/*.db
+api/**/*.db-shm
+api/**/*.db-wal
+.vs/
+*.user
